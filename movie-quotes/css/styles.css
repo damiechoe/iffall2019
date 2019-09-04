@@ -1,0 +1,25 @@
+body {
+	font-family: helvetica; text-align: center; background-color: greenyellow;
+}
+
+
+h1 {
+	color:red; font-size: 10vw; margin-bottom: 0;
+}
+
+h2 {
+	margin-top: 0;
+	margin-bottom: 100px;
+}
+
+h3{
+	border: solid; margin-right: 45%; margin-left: 45%; 
+}
+
+p {
+	margin-top: 0;
+}
+
+div {
+font-weight: bold;
+}
