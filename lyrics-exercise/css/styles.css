@@ -1,0 +1,32 @@
+body { 
+	color: white;
+	font-family: helvetica; text-align: center;
+	background-image: linear-gradient(red, orangered, DarkOrange, Coral, tomato, mediumvioletred, darkmagenta, slateblue, steelblue, deepskyblue, darkturquoise); 
+ 	margin-bottom: 60px;
+}
+
+header {
+	margin-top: 50px; margin-bottom: 40px; 
+}
+
+h1 {
+ 	margin-bottom: 0; font-size: 60px; font-weight: bold;
+ }
+
+h4 { 
+ 	margin-top: 0; 
+  }
+
+div.refrain {
+	font-weight: bold; font-size: 20px;
+}
+
+img.Unicorn_1 {
+	position: fixed; top: 10px; left: 10px; 
+	width: 450px; height: 450px;
+}
+
+img.Unicorn_2 {
+	position: fixed; top: 10px; right: 10px; 
+	width: 450px; height: 450px;
+}
