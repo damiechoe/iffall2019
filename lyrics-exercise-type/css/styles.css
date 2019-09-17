@@ -1,0 +1,82 @@
+@keyframes rainbow{
+
+	50% {background-position: bottom;}
+
+}
+
+.song {
+	position: absolute;
+	top: 1.6em;
+	right: 4em; 
+}
+
+.stanza{
+	margin-bottom: 5em;
+	margin-left: 26.4em;
+}
+
+.verse-number{
+	color: black;
+}
+
+.chorus{
+	text-decoration: underline; 
+	font-weight: bold;
+}
+
+.refrain{
+	font-family: lobster;
+	font-size: 2em; 
+}
+
+
+body {
+	margin: 0;
+	font-family: raleway, sans-serif;
+	color: white; 
+	overflow-x: hidden;
+}
+
+div.container {
+	margin: 0;
+	width: 100vw; 
+	height: 360vh; 
+	background: linear-gradient(-45deg, red, orangered, Coral, tomato, mediumvioletred, darkmagenta, slateblue, steelblue, deepskyblue, darkturquoise); 
+	background-size: 400% 400%; 
+	position: absolute;
+
+
+	animation: rainbow 20s infinite;
+	
+}
+
+
+h1{
+	font-family: lobster, cursive;
+	margin-top: 30px; 
+	margin-left: 0em;
+	font-size: 18em; 
+	color: white;
+	text-align: center;
+	line-height: 240px;
+}
+
+div.attribute{
+	font-family: lobster, cursive;
+	font-size: 3.7em;
+	color: black;
+	position: relative;
+	top: -3.2em;
+	left: 7.2em;
+}
+
+
+img.unicorn-1 {
+	position: absolute; top: 18em; left: 10px; 
+	width: 380px; height: 380px;
+}
+
+img.unicorn-2 {
+	position: absolute; top: 18em; right: 10px; 
+	width: 380px; height: 380px;
+}
