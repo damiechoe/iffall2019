@@ -1,0 +1,113 @@
+/*challenge 1*/
+
+header {
+	margin-bottom: 3rem;
+}
+
+/*challenge 2*/
+
+section.synopsis p{
+	line-height: 1.6;
+}
+
+/*challenge 3*/
+
+.see-all{
+	font-size: 0.8em; 
+	text-transform: uppercase;
+}
+
+
+/*challenge 4*/
+
+h1{
+	font-size: 2.5em; 
+}
+
+
+/*challenge 5*/
+
+section.content h2{
+	font-size: 1rem; 
+	text-transform: uppercase; 
+}
+
+/*challenge 6*/
+
+ul.shows h1{
+	font-weight: lighter;
+}
+
+/*challenge 7*/
+
+img {
+	width: 100%;
+}
+
+/*challenge 8*/
+
+section.cast li{
+	width: 25%;
+}
+
+
+/*challenge 9*/
+
+ul.shows > li{
+	border-top: 1px;
+	border-style: solid none none none;
+	border-color: black;
+}
+
+
+/*challenge 10*/
+
+nav li.selected, a:visited{
+	font-weight: bold;
+	color: black;
+}
+
+/*challenge 11*/
+
+section.cast div {
+	font-size: 0.8rem; 
+}
+
+/*challenge 12*/
+
+section.cast div:first-of-type{
+	font-weight: bold;
+}
+
+/*challenge 13*/
+
+section.cast div:last-child{
+	font-style: italic;
+}
+
+
+/*challenge 14*/
+
+ul.shows #game-of-thrones section.seasons li:last-of-type:before{
+	content: "*"
+}
+
+/*challenge 15*/
+
+ul.shows #game-of-thrones section.seasons:after{
+
+	content: "* Final Season";
+	font-size: 0.7rem; 
+	color: #999; 
+}
+
+
+
+
+
+
+
+
+
+
+
