@@ -18,11 +18,10 @@ section > :first-child {
 /*SECTION 1*/
 
 section.section-1 {
-	/*background-color: rgba(0, 0, 255, .5); */
 	height: 480px; 
 	text-align: center;
 	font-weight: bold;
-	line-height: 8px; 
+	line-height: 7.5px; 
 	background-image: url(campfire.jpeg);
 	background-size: cover;
 	color: white; 
@@ -34,6 +33,7 @@ h1 {
  }
 
 h2{
+	
  	font-size: 22.6pt;
  	font-weight: bold;
  }
