@@ -1,0 +1,48 @@
+
+
+section.section-1 aside {
+	float: right;
+}
+
+section.section-2 {
+	position: relative;
+}
+
+section.section-2 aside {
+	position: absolute;
+	bottom: 0; 
+	right: 0; 
+}
+
+section.section-3 aside {
+	background-color: green; 
+	position: fixed;
+	z-index: 1; 
+	top: 0; 
+	right: 0; 
+}
+
+section.section-4 {
+	position: relative;
+}
+
+section.section-4 aside:first-of-type {
+	background-color: red; 
+	position: absolute;
+	height: 165px;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	z-index: 1;
+}
+
+section.section-4 aside:nth-last-of-type(1){
+	background-color: black;
+	position: absolute;
+	bottom: 214px; 
+	right: 325px;
+}
+
+
