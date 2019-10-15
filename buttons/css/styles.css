@@ -1,0 +1,594 @@
+body {
+	color: #333;
+	font-family: 'Open Sans', sans-serif;
+	width: 85vw;
+	padding: 0;
+}
+
+#main_content {
+	margin: 40px;
+}
+
+
+h1 {
+	font-size: 30px;
+	margin-bottom: 40px;
+}
+
+.button_container {
+	border: 1px solid #ddd;
+	margin: 0 10px 10px 0;
+	padding: 20px;
+	width: 300px;
+	height: 300px;
+	float: left;
+	overflow: hidden;
+	box-sizing: border-box;
+	text-align: center;
+	display: inline-block;
+}
+
+
+
+a#btn_spotify {
+	display: inline-block;
+	height: 50px;
+	box-sizing: border-box;
+	border-radius: 25px;
+	margin: auto;
+	margin-top: 100px;
+	padding: 10px 40px 0 40px;
+	background-color: #2ebd59;
+	border: 2px solid #2ebd59;
+	color: #fff;
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a#btn_spotify:hover {
+	background-color: #fff;
+	border: 2px solid #000;
+	color: #000;
+}
+
+
+a#btn_twitter {
+	display: inline-block;
+	height: 40px;
+	box-sizing: border-box;
+	border-radius: 4px;
+	margin: auto;
+	margin-top: 105px;
+	padding: 10px 30px 0 30px;
+	background-color: #56cdf1;
+	color: #fff;
+	font-size: 18px;
+	font-family: 'Arial', sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a#btn_twitter:hover {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2ebfec+0,28a5cb+100 */
+	background: #2ebfec; /* Old browsers */
+	background: -moz-linear-gradient(top,  #2ebfec 0%, #28a5cb 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2ebfec), color-stop(100%,#28a5cb));  Chrome,Safari4+ 
+	background: -webkit-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #2ebfec 0%,#28a5cb 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ebfec', endColorstr='#28a5cb',GradientType=0 ); /* IE6-9 */
+}
+
+
+a#btn_amazon {
+	display: block;
+	width: 100px;
+	height: 100px;
+	box-sizing: border-box;
+	border-radius: 50px;
+	margin: auto;
+	margin-top: 75px;
+	padding-top: 8px;
+	background-color: #232f3e;
+	color: #fff;
+	text-align: center;
+	font-size: 60px;
+}
+
+a#btn_amazon:hover {
+	background-color: #fc9a18;
+}
+
+
+a#btn_indiegogo {
+	display: inline-block;
+	margin:auto;
+	margin-top: 100px;
+	padding: 8px 16px;
+	background-color: #fff;
+	color: #eb1478;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: -2px;
+}
+
+a#btn_indiegogo:hover {
+	color: #fff;
+	background-color: #eb1478;
+}
+
+/*-----------------------------------my buttons start here----------------------------------------------*/
+
+a#btn_nike {
+	display: inline-block;
+	margin-top: 100px;
+	padding: 8px 16px;
+	background-color: black;
+	color: white;
+	font-family: 'Helvetica', sans-serif;
+	font-size: 30px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+a#btn_nike:hover{
+	color: black;
+	background: rgba(0,0,0,.2);
+}
+
+/*----------------------------------------------*/
+
+
+a#btn_instagram {
+	display: inline-block;
+	padding: 3px 22px;
+	margin: auto; 
+	margin-top: 71px;
+
+	background: linear-gradient(45deg, #ffd879 6%,#f45d3a 22%,#f45d3a 22%,#d52e7b 47%,#9934ae 68%,#9934ae 68%,#9934ae 74%,#535ad0 92%,#535ad0 92%); 
+	color: white;
+	border-style: none;	
+	border-radius: 10px; 
+
+	font-size: 60px; 	
+}
+
+a#btn_instagram:hover {
+	background: white;
+	border-style: solid; 
+	border-color: #d82c86;
+	color: #d82c86;
+}
+
+a#btn_instagram:hover i {
+	transform: rotate(360deg);
+	transition: 0.7s;
+}
+
+
+/*----------------------------------------------*/
+
+a#btn_pottermore {
+	display: inline-block;
+	padding: 13px 32px;
+	margin: auto; 
+	margin-top: 71px;
+
+	background: black;
+    border-radius: 140px;
+    width: 71px;
+    height: 111px;
+}
+
+a#btn_pottermore #darkmark {
+	position: relative;
+	top: -112px;
+    left: -15px;
+	width: 100px; 
+	z-index: 1;
+	
+	opacity: 0; 
+}
+
+a#btn_pottermore #wizardingworld {
+	margin-left: -14px;
+	width: 118px;
+    position: relative;
+    top: -4px;
+    right: 9px;
+    z-index: 0;
+}
+
+a#btn_pottermore:hover #darkmark{
+	opacity: 1; 
+	transition: 1.2s; 
+}
+
+/*----------------------------------------------*/
+
+a#btn_lyft {
+	display: inline-block;
+	padding: 13px 32px;
+	margin: auto; 
+	margin-top: 102px;
+	width: 100px; 
+	height: 30px; 
+
+	background: #1850a5;
+
+	border-style: solid;
+	border-color: #1850a5;
+	border-width: 2px; 
+	border-radius: 40px; 
+}
+
+a#btn_lyft img {
+	margin-top: -22px;
+	width: 100px; 
+}
+
+a#btn_lyft:hover {
+	background: grey;
+	border-color: #1850a5;
+}
+
+a#btn_lyft:hover img{
+	transform: scale(1.2);
+	transition: 0.2s;
+}
+
+/*----------------------------------------------*/
+
+
+a#btn_newyorker {
+	display: inline-block;
+	margin: auto; 
+	margin-top: 114px;
+	padding-left: 10px;
+	padding-top: 12px;
+	padding-right: 10px;
+
+	border-left-width: 21px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-left-style: solid;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-color: black;
+}
+
+a#btn_newyorker img{
+	width: 200px;
+}
+
+a#btn_newyorker:hover {
+	transform: scale(1.2);
+}
+
+
+/*----------------------------------------------*/
+
+
+a#btn_samsung {
+	display: inline-block;
+	margin: auto;
+	margin-top: 90px; 
+	border-radius: 19px; 
+	height: 75px;
+	width: 190px;
+	background-image: url(samsung.jpg);
+	background-size: cover;
+}
+
+
+a#btn_samsung #samsunglogo {
+    display: inline-block;
+    padding-top: 0px;
+    height: 83px;
+    z-index: 1;
+}
+
+a#btn_samsung:hover {
+	transform: scale(.8);
+	transition: .5s; 
+	border-style: solid;
+	border-color: #02d8fb;
+	border-width: 4px;
+}
+
+
+/*----------------------------------------------*/
+
+
+a#btn_cartoonnetwork {
+	display: inline-block;
+	margin: auto;
+	margin-top: 60px;
+}
+
+a#btn_cartoonnetwork img {
+	position: relative;
+	width: 92px;
+}
+
+
+a#btn_cartoonnetwork:hover #C{
+	transform: rotate(-15deg);
+	background-color: #00aeef;
+	padding: 7px 7px;
+	top: -10px;
+}
+
+a#btn_cartoonnetwork:hover #N{
+	transform: rotate(15deg);
+	background-color: #00aeef;
+	padding: 7px 7px;
+	top: 10px;
+	left: -5px;
+}
+
+
+/*----------------------------------------------*/
+
+
+a#btn_bissingers {
+	display: inline-block;
+	margin: auto;
+	margin-top: 60px;
+	background-color: #c09621;
+}
+
+a#btn_bissingers img{
+	width: 100px;
+}
+
+a#btn_bissingers:hover {
+	background-color: #432721;
+	border-radius: 15px;
+	transition: .3s;
+}
+
+
+/*----------------------------------------------*/
+
+
+a#btn_tonightshow {
+	display: inline-block;
+	margin-top: 54px;
+
+	width: 140px;
+	height: 140px;
+	box-sizing: border-box;
+	border-radius: 78px;
+	background-color: #002d53;
+	color: white;
+	text-align: center;
+	padding-top: 8px;
+
+	font-size: 44px;
+}
+
+a#btn_tonightshow i{
+	position: relative;
+	top: -143px;
+	right: 0;
+	z-index: 1;
+
+}
+
+a#btn_tonightshow img {
+	position: relative;
+	z-index: 2; 
+	margin:0;
+	padding-top: 69px;
+    width: 140px;
+    margin-top: -77px;
+    margin-right: 0px;
+    opacity: 0;
+}
+
+a#btn_tonightshow:hover img {
+	opacity: 1;
+}
+
+
+/*----------------------------------------------*/
+
+
+a#btn_coke {
+	position: relative;
+	display: inline-block;
+	margin-top: 54px;
+	height: 150px;
+	transform-style: preserve-3d;
+}
+
+a#btn_coke img {
+	width: 100%;
+ 	height: 100%;
+  	text-align: center;
+	width: 170px;
+}
+
+a#btn_coke:hover {
+	transform: rotateY(360deg);
+	transition: 2s; 
+}
+
+.cap-front {
+	backface-visibility: hidden;
+	position: relative;
+    top: -10px;
+}
+
+.cap-back {
+	backface-visibility: visible;
+	position: relative;
+	top: -187px;
+	z-index: -1; 	
+}
+
+
+/*----------------------------------------------*/
+
+
+a#btn_tesla {
+	margin: 0;
+	position: relative;
+	top: -21px;
+    left: -21px;
+	display: inline-block;
+	width: 300px;
+	height: 300px;
+
+}
+
+img#redt {
+	border-style: solid;
+	border-width: 3px;
+	border-color: #b61b1c;
+	border-radius: 10px;
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
+	height: 100px; 
+	margin: auto;
+	z-index: 1; 
+}
+
+#redt:hover {
+	text-align: center;
+	height: 125px; 
+	transition: .5s;
+	box-shadow: 0px 1px 8px 4px #b61b1c;
+}
+
+#redt:active {
+	height: 80px;
+	transition: 0s; 
+}
+
+/*----------------------------------------------*/
+
+a#btn_colorrun {
+	font-family: Montserrat,sans-serif;
+	text-decoration: none; 
+	color: white; 
+	font-size: 21px; 
+
+	margin: auto;
+	display: inline-block;
+    margin-top: 89px;
+    padding-top: 21px;
+    height: 48px;
+    width: 185px;
+    background: #262626;
+}
+
+a#btn_colorrun:hover {
+	text-decoration: underline;
+	transition: 2s; 
+}
+
+/*----------------------------------------------*/
+
+a#btn_fitbit {
+	margin: 7px -1px;
+	display: inline-block;
+}
+
+a#btn_fitbit div.box {
+	background: #11b0b9;
+    height: 133px;
+    width: 160px;
+    border-radius: 30px;
+    margin-top: 42px;
+    margin-left: 51px;
+    padding-top: 20px;
+}
+
+a#btn_fitbit img {
+	position: relative;
+	width: 200px; 
+    top: -145px;
+    right: -2px;
+}
+
+a#btn_fitbit #fitbitwhite{
+	z-index: 2; 
+}
+
+a#btn_fitbit #fitbitblack {
+	top: -287.5px;
+}
+
+a#btn_fitbit:hover #fitbitblack{
+	z-index: 3;
+}
+
+a#btn_fitbit:hover div.box{
+	transform: rotate(45deg);
+	transition: .3s; 
+}
+
+a#btn_fitbit:active div.box{
+	transform: rotate(45deg) scale(.7) ;
+}
+
+
+/*----------------------------------------------*/
+
+a#btn_npr {
+	margin: auto;
+	display: inline-block;	
+}
+
+a#btn_npr img{
+    margin-top: 88px;
+    height: 61px;
+}
+
+a#btn_npr img:hover{
+	box-shadow: 10px 10px black; 
+}
+
+/*----------------------------------------------*/
+
+a#btn_army {
+	margin:0;
+	display: inline-block;	
+}
+
+a#btn_army img{
+	position: relative;
+  	margin-top: 57px;
+   	height: 124px;
+}
+
+a#btn_army img:hover {
+	transform: scale(.8);
+}
+
+a#btn_army img:active {
+	transform: scale(1.4);
+}
+
+
+
+
+
+
+
+
+
+
+
