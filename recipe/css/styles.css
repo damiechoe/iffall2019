@@ -1,0 +1,140 @@
+
+
+body {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	margin-left: 0;
+	font-family: Roboto, sans-serif;
+	font-size: 10.5pt;
+}
+
+h1 {
+	font-size: 27pt;
+	text-align: center;
+	font-family: Permanent Marker, cursive; 
+	margin-bottom: 0px;
+}
+
+.misc {
+ 	font-size: 12px;
+ 	text-align: center;
+ }
+
+.number {
+	font-size: 17pt;
+}
+
+#bibimbap {
+	width: 100vw;
+}
+
+#bibimbap-2 {
+	width: 100vw; 
+	margin-bottom: 120px;
+}
+
+
+.intro {
+
+	padding: 43px 2px 70px 20px;
+}
+
+.outro {
+	padding: 72px 2px 46px 20px;
+}
+
+
+h2.header {
+	padding-left: 20px;
+}
+
+.container {
+	display: flex;
+	align-content: stretch;
+
+	margin:-1px 0px;
+	height: 140px;
+	width: 100vw;
+}
+
+.colored-box {
+
+	display: inline-block;
+	box-sizing: border-box;
+
+	background-color: #6f87b1;
+	padding: 20px 22px;
+}
+
+.image {
+	width: 100px;
+}
+
+.recipe {
+	display: flex;
+	align-items: center;
+}
+
+.last {
+	border-bottom-style: dashed;
+	border-width: 1px;
+	border-color: #6f87b1;
+	width: 100vw;
+}
+
+.first {
+	border-top-style: dashed;
+	border-width: 1px;
+	border-color: #6f87b1;
+}
+
+.text {
+	display: inline-block;
+	padding: 20px 8px 22px 13px;
+}
+
+.divider{
+	width: 100vw;
+	display: flex;
+}
+
+.food-name{
+	padding: 20px 22px;
+	display: inline-block;
+	font-size: 14pt;
+	width: 100px; 
+	background: #6f87b1;
+	color: white;
+}
+
+.ingredients {
+	font-size: 13.7px;
+	box-sizing: border-box;
+	padding-left: 20px;
+	padding-bottom: 51px;
+	column-count: 2;
+	column-gap: 4px;
+}
+
+ .ingredients div {
+ 	display: inline-block;
+ 	margin-bottom: 20px;
+ }
+
+
+.family {
+	width: 100vw;
+}
+
+/*.empty-div {
+	height: 54px;
+	border-top-style: dashed;
+	border-top-width: 1px;
+	border-color: #6f87b1;
+	background-color: black;
+
+}*/
+
+
+
