@@ -22,7 +22,8 @@ h1 {
  }
 
 .number {
-	font-size: 17pt;
+	font-size: 13pt;
+	font-weight: bold;
 }
 
 #bibimbap {
@@ -37,7 +38,7 @@ h1 {
 
 .intro {
 
-	padding: 43px 2px 70px 20px;
+	padding: 43px 18px 70px 20px;
 }
 
 .outro {
@@ -72,8 +73,10 @@ h2.header {
 }
 
 .recipe {
-	display: flex;
+	/*display: flex;*/
+	font-size: 11.5pt;
 	align-items: center;
+
 }
 
 .last {
@@ -91,7 +94,7 @@ h2.header {
 
 .text {
 	display: inline-block;
-	padding: 20px 8px 22px 13px;
+    padding: 20px 28px 22px 26px;
 }
 
 .divider{
@@ -100,7 +103,7 @@ h2.header {
 }
 
 .food-name{
-	padding: 20px 22px;
+    padding: 13px 22px;
 	display: inline-block;
 	font-size: 14pt;
 	width: 100px; 
@@ -113,6 +116,7 @@ h2.header {
 	box-sizing: border-box;
 	padding-left: 20px;
 	padding-bottom: 51px;
+    padding-right: 12px;
 	column-count: 2;
 	column-gap: 4px;
 }
