@@ -1,0 +1,170 @@
+
+
+body {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	margin-left: 0;
+	font-family: Roboto, sans-serif;
+	font-size: 11.75pt;
+}
+
+h1 {
+	font-size: 28pt;
+	text-align: center;
+	font-family: Permanent Marker, cursive; 
+	margin-bottom: -3px;
+}
+
+a:link { 
+	text-decoration: none;
+	color: #7f97c3;
+}
+
+a:visited {
+	color: #7f97c3; 
+}
+
+.credit a:link{
+	color: #7f97c3;
+}
+
+.credit a:visited{
+	color: #7f97c3;	
+}
+
+.misc {
+ 	font-size: 12px;
+ 	text-align: center;
+ 	margin-top: 4px;
+ }
+
+.number {
+	font-size: 13pt;
+	font-weight: bold;
+}
+
+#bibimbap {
+	width: 100vw;
+}
+
+#bibimbap-2 {
+	width: 100vw; 
+
+}
+
+
+.intro {
+
+	padding: 43px 16px 70px 20px;
+}
+
+.outro {
+	padding: 72px 20px 46px 20px;
+}
+
+
+h2.header {
+	padding-left: 20px;
+}
+
+.container {
+	display: flex;
+	align-content: stretch;
+
+	margin:-1px 0px;
+	height: 140px;
+	width: 100vw;
+}
+
+.colored-box {
+
+	display: inline-block;
+	box-sizing: border-box;
+
+	background-color: #6f87b1;
+	padding: 20px 22px;
+}
+
+.image {
+	width: 100px;
+	border-radius: 5px;
+}
+
+.recipe {
+	/*display: flex;*/
+	font-size: 11.5pt;
+	align-items: center;
+
+}
+
+.also-last {
+	border-bottom-right-radius: 12px;
+}
+
+.last {
+	/*border-bottom-style: dashed;*/
+	border-width: 1px;
+	border-color: #6f87b1;
+	width: 100vw;
+}
+
+.first {
+	/*border-top-style: dashed;*/
+	border-width: 1px;
+	border-color: #6f87b1;
+}
+
+.text {
+	display: inline-block;
+    padding: 20px 28px 22px 26px;
+}
+
+.divider{
+	width: 100vw;
+	display: flex;
+	
+}
+
+.food-name{
+	/*font-family: Permanent Marker, cursive;*/
+    padding: 13px 22px 0px 22px;
+	display: inline-block;
+	font-size: 14pt;
+	width: 100px; 
+	background: #6f87b1;
+	color: white;
+	/*text-transform: uppercase;*/
+	border-top-right-radius: 12px;
+}
+
+.ingredients {
+	font-size: 13.7px;
+	box-sizing: border-box;
+	padding-left: 20px;
+	padding-bottom: 51px;
+    padding-right: 12px;
+	column-count: 2;
+	column-gap: 4px;
+}
+
+ .ingredients div {
+ 	display: inline-block;
+ 	margin-bottom: 20px;
+ }
+
+.family {
+	width: 100vw;
+	margin-bottom: 25px;
+}
+
+.enjoy {
+	text-align: center;
+	font-weight: bold;
+	font-size: 15pt;
+    padding: 41px 10px;
+}
+
+
+
+
