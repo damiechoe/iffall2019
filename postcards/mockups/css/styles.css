@@ -1,0 +1,49 @@
+body {
+	font-family: Source Sans Pro; 
+	text-align: center;
+}
+
+img {
+	height: 70vh;
+}
+
+div {
+	display: inline-block;
+	margin: 0px auto 53px;
+}
+
+.mobile {
+	margin-left: 53px;
+}
+
+.second img {
+	border-style: solid;
+	border-color: black; 
+	border-width: 1px;
+}
+
+.first {
+	margin-top: 53px;
+}
+
+.top-left header {
+	text-align: left;
+}
+
+div.top-left {
+	margin: 0;
+}
+
+.title {
+	font-weight: bold;
+	font-size: 15pt;
+}
+
+.attribution {
+	margin-bottom: 53px;
+}
+
+
+
+
+
