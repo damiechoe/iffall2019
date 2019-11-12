@@ -1,0 +1,262 @@
+
+a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 10;
+}
+
+#card-1 {
+	background-color: #00a8f3;
+	text-align: center;
+	font-family: 'Catamaran', sans-serif;
+	margin-left: 0;
+	color: white;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+
+#quote-1 {
+	position: relative;
+    padding-top: 7vh;
+    padding-left: 5vw;
+	z-index: 2;
+	font-size: 35pt;
+	text-align: left;
+}
+
+
+img.img_1-1 {
+	height: 70vh;
+	padding-top: 7vh;
+	display: inline-block;
+}
+
+img.img_1-2 {
+	display: none;
+}
+
+@media (max-width: 1000px) {
+	#quote-1  {
+		font-size: 23pt;
+	}
+
+	img.img_1-1 {
+		position: absolute;
+		right: 0;
+	}
+}
+
+@media (max-width: 577px) {
+	#quote-1 {
+		font-size: 17pt;
+		padding-left: 0;
+		padding-top: 10vh;
+		text-align: center;
+	}
+
+	img.img_1-1 {
+		display: none;
+	}
+
+	img.img_1-2 {
+		display: inline-block;
+		width: 100vw;
+		padding-top: 2vh;
+	}
+}
+
+@media (max-width: 406px) {
+	#quote-1 {
+		font-size: 12pt;
+	}
+}
+
+
+/*------------------------------------------------------------------------------------------------------------------*/
+
+
+#card-2 {
+	text-align: center;
+	font-family: 'Catamaran', sans-serif;
+	margin-left: 0;
+	padding: 0;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+
+#quote-2 {
+    padding-top: 4vh;
+
+	z-index: 2;
+	font-size: 15pt;
+	line-height: 22pt;
+	text-align: center;
+}
+
+#quote-2-attribution {
+	padding-top: 2vh;
+	font-size: 12pt;
+}
+
+img.img_2-2 {
+	display: none;
+}
+
+img.img_2-1 {
+	display: inline-block;
+	position: relative;
+	margin-top: 0;
+	padding-top: 2vh;
+	width: 60vw;
+}
+
+
+@media (max-width: 700px) {
+
+	img.img_2-1 {
+			display: none;
+		}
+
+	img.img_2-2 {
+			margin:0;
+			padding: 0;
+			display: inline-block;
+			width: 100vw;
+			overflow: hidden;
+		}
+
+	#quote-2 div {
+		font-size: 12pt;
+		line-height: normal;
+	}
+}
+
+@media (max-width: 400px) {
+
+
+	#quote-2 div {
+		font-size: 10pt;
+		line-height: normal;
+	}
+
+	#quote-2-attribution {
+	font-size: 15pt;
+}
+
+}
+
+
+
+
+
+
+/*------------------------------------------------------------------------------------------------------------------*/
+
+
+#card-3 {
+
+	font-family: 'Catamaran', sans-serif;
+	height: 100vh;
+	
+	background-image: url(Calvin_3.0.jpg);
+	background-repeat: no-repeat;
+	
+	overflow: hidden;
+	background-size: cover;
+	background-position: center ;
+	display: block;
+}
+
+#quote-3 {
+	width: 31vw;
+	font-size: 23pt;
+	padding-top: 22vh;
+	padding-left: 32vw;
+}
+
+#quote-3-attribution {
+	font-size: 12pt;
+	padding-left: 14vw;
+	padding-top: 1vh;
+}
+
+#quote-3 :first-child {
+	line-height: 29pt;
+}
+
+@media (max-width: 1100px) {
+	#quote-3 {
+		padding-top: 25vh;
+		font-size: 17pt;
+		line-height: 24pt;
+	}
+
+	#quote-3 :first-child {
+		line-height: 22pt;
+	}
+}
+
+
+@media (max-width: 750px) {
+	#card-3 {
+		background-image: url(Calvin_3.1.jpg);
+	}
+
+	#quote-3 {
+		width: 60vw;
+		font-size: 15pt;
+		line-height: 24pt;
+		padding-left: 22vw;
+		padding-top: 10vh;
+	}
+
+	#quote-3 :first-child {
+		line-height: 22pt;
+	}
+}
+
+@media (max-height: 400px) {
+	#quote-3 {
+		font-size: 14pt;
+		margin: 0 auto;
+		padding: 5vh;
+	}
+
+	#quote-3 :first-child {
+		line-height: 18pt;
+	}
+
+	#quote-3-attribution {
+		text-align: right;
+	}
+}
+
+
+/*@media (max-width: 400px) {
+	#quote-3 {
+		width: 70vw;
+		padding-left: 13vw;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
