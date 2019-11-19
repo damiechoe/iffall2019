@@ -1,0 +1,28 @@
+body {
+	margin: 0;
+	text-align: center;
+	font-family: sans-serif;
+}
+
+img {
+	border-width: 1px;
+	border-style: solid;
+	border-color: black; 
+
+	display: inline-block;
+	height: 90vh;
+	margin-top: 60px;
+}
+
+img.last {
+	margin-bottom: 60px;
+}
+
+#title {
+	font-weight: bold;
+	font-size: 14pt;
+	margin-top: 60px;
+	margin-bottom: 8px;
+}
+
+
