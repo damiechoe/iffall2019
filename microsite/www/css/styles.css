@@ -1,8 +1,13 @@
-body.home-page {
-	width: 100vw;
+body {
+	width: 100vw; 
 	margin: 0;
+}
+
+
+body.home-page {
 	background-position: -133px -110px;
 	height: 100vh;
+	width: 100vw;
 	overflow: hidden;
 	background-color: #655756;
 	background-image: url(Amrita.png);
@@ -12,6 +17,7 @@ body.home-page {
 }
 
 .top-bar {
+	position: fixed;
 	margin: 0;
 	padding: 0;
 	display: flex;
@@ -19,10 +25,11 @@ body.home-page {
 	background-color: #d75c1f;
 	flex-direction: column;
 	z-index: 10;
+	width: 100vw;
 }
 
 body.home-page .top-bar {
-	/*padding-bottom: 10px;*/
+	position: static;
 }
 
 #title {
@@ -45,18 +52,12 @@ body.home-page .top-bar {
 	height: 12vh;
 }
 
-/*body.home-page .container {
+body.home-page .container {
 	align-items: center;
 	height: 12vh;
 }
 
-body.home-page .top-bar {
-	position: fixed;
-	top: 0;
-	width: 100vw;
-}*/
-
-body.home-page img.name {
+.name {
 	width: 15vw;
 }
 
@@ -72,14 +73,29 @@ a.button:hover {
 	transition: 0.3s;
 }
 
+
+.copy-container {
+	width: 50vw;
+	top: 10vh;
+	position: relative;
+	left: 55vw;
+}
+
 .copy {
+
+	background-color: rgba(101, 86, 85, .5);
+
 	color: white;
 	font-family: Oxygen, sans-serif; 
+
 	position: relative;
-	right: -55vw;
-	top: 40px;
+	padding: 5px;
+	margin: 0;
+
 	font-size: 10pt;
-	width: 40vw;
+	width: 35vw;
+	right: 0px;
+	
 }
 
 .callout {
@@ -90,45 +106,26 @@ a.button:hover {
 	font-size: 22pt;
 	text-align: center;
 	position: right;
-	width: 31vw;
-	padding-bottom: 50px;
+	width: 35vw;
+	padding-bottom: 20px;
 }
 
 .intro-body-copy {
-	width: 500px;
+	width: 35vw;
 	padding-top: 10px;
 }
 
 
 /*----------------------------------------------------------------------------------------------------------------*/
 
-body.personal-life{
-	width: 100vw;
-	margin: 0;
-}
-
 body.personal-life img.name {
 	width: 15vw;
 }
 
-body.personal-life .container {
-	align-items: center;
-	height: 12vh;
-}
-
-body.personal-life .top-bar {
-	position: fixed;
-	top: 0;
-	width: 100vw;
-}
-
-body.personal-life img {
+img {
 	width: 30vw;
 }
 
-body.personal-life .header {
-	margin-bottom: 1vh;
-}
 
 .box-container {
 	display: flex;
@@ -163,7 +160,7 @@ body.personal-life .header {
 	font-family: Oxygen, sans-serif;
 	color: white;
 	line-height: 17pt;
-	width: 600px;
+	width: 40vw;
 	padding-bottom: 40px;
 }
 
@@ -180,6 +177,7 @@ body.personal-life .header {
 	padding-top: 20vh;
 	font-family: Garamond, serif;
 	font-style: italic;
+	margin-bottom: 1vh;
 }
 
 .caption {
@@ -189,131 +187,48 @@ body.personal-life .header {
 
 /*----------------------------------------------------------------------------------------------------------------*/
 
-body.early-career  {
-	width: 100vw;
-	margin: 0;
-}
 
 body.early-career img.name{
 	width: 15vw;
 }
 
-body.early-career .container{
-	align-items: center;
-	height: 12vh;
-}
 
-body.early-career .top-bar {
-	position: fixed;
-	top: 0;
-	width: 100vw;
-	z-index: 10;
-}
-
-body.early-career img {
-	width: 30vw;
-}
-
-body.early-career .header {
-	margin-bottom: 1vh;
-}
 
 
 /*----------------------------------------------------------------------------------------------------------------*/
 
-body.later-career {
-	width: 100vw;
-	margin: 0;
-}
-
 body.later-career img.name {
 	width: 15vw;
-}
-
-body.later-career .container {
-	align-items: center;
-	height: 12vh;
-}
-
-body.later-career .top-bar {
-	position: fixed;
-	top: 0;
-	width: 100vw;
-	z-index: 10;
-}
-
-body.later-career img {
-	width: 30vw;
 }
 
 body.later-career .photo {
 	padding-bottom: 20px;
 }
 
-body.later-career .header {
-	margin-bottom: 1vh;
-}
-
 /*----------------------------------------------------------------------------------------------------------------*/
-
-body.legacy {
-	width: 100vw;
-	margin: 0;
-}
 
 body.legacy img.name {
 	width: 15vw;
 }
 
-body.legacy .container {
-	align-items: center;
-	height: 12vh;
-}
-
-body.legacy .top-bar {
-	position: fixed;
-	top: 0;
-	width: 100vw;
-	z-index: 10;
-}
-
-body.legacy img {
-	width: 30vw;
-}
-
 body.legacy .callout {
+	width: 30vw;
 	color: black;
 	font-size: 14pt;
 	line-height: 18pt;
+	padding-bottom: 50px;
 }
 
-body.legacy .photo {
-	text-align: right;
-	width: 30vw;
-}
+
 
 /*----------------------------------------------------------------------------------------------------------------*/
 
 body.gallery {
-	width: 100vw;
-	margin: 0;
 	background-color: #d75c1f;
 }
 
 body.gallery img.name {
 	width: 15vw;
-}
-
-body.gallery .container {
-	align-items: center;
-	height: 12vh;
-}
-
-body.gallery .top-bar {
-	position: fixed;
-	top: 0;
-	width: 100vw;
-	z-index: 10;
 }
 
 body.gallery .header {
@@ -323,7 +238,6 @@ body.gallery .header {
 
 .selected {
 	font-weight: bold; 
-	/*color: #3d0600;*/
 }
 
 .sources {
@@ -353,16 +267,22 @@ body.gallery .header {
 	position: relative;
 	margin: auto;
 	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .gallery-pics {
 	display: none;
+	margin-left: 50px;
+	margin-right: 50px;
 }
 
 .gallery-pics img {
 	border-color: #2e2a36;
 	border-width: 15px;
 	border-style: solid;
+	width: auto;
 }
 
 .gallery-caption {
@@ -375,18 +295,18 @@ body.gallery .header {
 
 .prev, .next {
 	cursor: pointer;
-	font-size: 30pt;
+	font-size: 50pt;
 	position: absolute;
-	top: 25vh;
-	/*padding-top: 7vh;*/
+	color: #2e2a36;
+
 }
 
 .next {
-	right: 5vw;
+	right: 3vw;
 }
 
 .prev {
-	left: 5vw;
+	left: 3vw;
 }
 
 
