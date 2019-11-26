@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gallery</title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" href="https://use.typekit.net/sbw6evs.css">
+	<link href="https://fonts.googleapis.com/css?family=Oxygen:400,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+</head>
+
+
+
+<body class="gallery">
+
+	<div class="top-bar">
+		
+		<div class="container">
+			<a class="button" href="index.html">Introduction</a>
+			<a class="button" href="personal-life.html">Personal Life</a>
+			<a class="button" href="early-career.html">Early Career</a>
+			<a class="button" href="index.html"><img class="name" src="css/header.png"></a>
+			<a class="button" href="later-career.html">Later Career</a>
+			<a class="button" href="legacy.html">Legacy</a>
+			<a class="button selected" href="gallery.html">Gallery</a>
+		</div>
+
+	</div>
+
+
+	<div class="header">Gallery</div>
+
+	<div class="carousel">
+		
+
+		<div class="gallery-pics">
+			<img src="css/Amrita_9.jpg" style="height:25vw">
+			<div class="gallery-caption">Hungarian Gypsy Girl, 1932</div>
+		</div>
+
+		<div class="gallery-pics">
+			<img src="css/Amrita_8.jpg" style="height:25vw">
+			<div class="gallery-caption">Group of Three Girls, 1935</div>
+		</div>
+
+		<div class="gallery-pics">
+			<img src="css/Amrita_10.jpg" style="height:25vw">
+			<div class="gallery-caption">Klára Szepessy, 1932</div>
+		</div>
+
+		<div class="gallery-pics">
+			<img src="css/Amrita_11.jpg" style="height:25vw">
+			<div class="gallery-caption">Self-portrait (untitled), 1931</div>
+		</div>
+
+		<div class="gallery-pics">
+			<img src="css/Amrita_12.jpg" style="height:25vw">
+			<div class="gallery-caption">Self-portrait, 1930</div>
+		</div>
+
+		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  		<a class="next" onclick="plusSlides(1)">&#10095;</a>
+	</div>
+
+	<div class="source-container">
+		<div class="sources">
+			<div>content source</div>
+			<div>https://en.wikipedia.org/wiki/Amrita_Sher-Gil</div>
+		</div>
+
+		<div class="sources">
+			<div>image sources</div>
+			<div>https://en.wikipedia.org/wiki/Amrita_Sher-Gil</div>
+			<div>https://artsandculture.google.com/asset/brahmacharis/2gGseMA9eE87Hg</div>
+			<div>https://awarewomenartists.com/en/artiste/amrita-sher-gil/</div>
+			<div>https://arthistoryproject.com/artists/amrita-sher-gil/self-portrait-as-a-tahitian/</div>
+			<div>https://www.sartle.com/artwork/brides-toilet-amrita-sher-gil</div>
+		</div>
+	</div>
+
+	
+
+<!-- https://www.w3schools.com/howto/howto_js_slideshow.asp -->
+
+
+
+
+	<script type="text/javascript">
+
+		var slideIndex = 1;
+		showSlides(slideIndex);
+
+		// Next/previous controls
+		function plusSlides(n) {
+		  showSlides(slideIndex += n);
+		}
+
+		// Thumbnail image controls
+		function currentSlide(n) {
+		  showSlides(slideIndex = n);
+		}
+
+		function showSlides(n) {
+		  var i;
+		  var slides = document.getElementsByClassName("gallery-pics");
+		  
+		  if (n > slides.length) {slideIndex = 1}
+		  if (n < 1) {slideIndex = slides.length}
+		  for (i = 0; i < slides.length; i++) {
+		      slides[i].style.display = "none";
+		  	}
+		
+		  slides[slideIndex-1].style.display = "block";
+		  dots[slideIndex-1].className += " active";
+		}
+
+	</script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
