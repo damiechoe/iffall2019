@@ -298,8 +298,19 @@ body.gallery .header {
 	font-size: 50pt;
 	position: absolute;
 	color: #2e2a36;
-
+	user-select: none;
 }
+
+.prev:hover {
+	color: yellow;
+	transition: 0.3s; 
+}
+
+.next:hover {
+	color: yellow;
+	transition: 0.3s; 
+}
+
 
 .next {
 	right: 3vw;
